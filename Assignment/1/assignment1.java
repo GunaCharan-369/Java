@@ -35,7 +35,7 @@ class Orange extends Apple {
 // ============================================================
 
 // Multiple child classes inherit from the same parent class.
-// Here, Lion and Cat both inherit from Animal.
+// Here, Orange and Watermelon both inherit from Animal.
 
 class Watermelon extends Fruit {
     void colour() {
