@@ -82,13 +82,13 @@ class C3 implements I1, I2 {
 //
 // Example:
 
-/*class C4 implements C2 extends I1 {   //Error
+class C4 extends C2 implements I1 {   //Error
 
     public void methodI1() {
         System.out.println("C4 implements I1"); 
     }
 }
-*/
+
 // ------------------------------------------------------------
 
 
