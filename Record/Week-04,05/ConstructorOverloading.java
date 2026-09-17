@@ -52,7 +52,7 @@ class Employee {
     }
 }
 
-public class EmployeeDemo {
+public class ConstructorOverloading {
     public static void main(String[] args) {
 
         // Calling different overloaded constructors
