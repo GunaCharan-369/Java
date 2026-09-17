@@ -1,4 +1,4 @@
-package observation.03;
+package observation.exp03;
 
 public class ArrayIndexOutOfBoundsException {
     public static void main(String[] args) {
