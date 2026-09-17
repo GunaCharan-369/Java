@@ -1,3 +1,5 @@
+package observation.03;
+
 public class StringIndexOutOfBoundsException {
     public static void main(String[] args) {
 
