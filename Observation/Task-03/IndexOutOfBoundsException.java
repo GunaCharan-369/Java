@@ -1,4 +1,4 @@
-package observation.03;
+package observation.exp03;
 import java.util.*;
 
 public class IndexOutOfBoundsException {
