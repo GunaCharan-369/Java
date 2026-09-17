@@ -1,3 +1,5 @@
+package observation.03;
+
 public class NullPointerException {
     public static void main(String[] args) {
 
