@@ -1,20 +1,16 @@
-public class MarksOfFiveSubjects {
+class MarksOfFiveSubjects {
     public static void main(String[] args) {
 
-        if (args.length != 5) {
-            System.out.println("Please enter marks of exactly five subjects.");
-            return;
-        }
+        int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
+        int c = Integer.parseInt(args[2]);
+        int d = Integer.parseInt(args[3]);
+        int e = Integer.parseInt(args[4]);
 
-        int total = 0;
-
-        for (int i = 0; i < 5; i++) {
-            total = total + Integer.parseInt(args[i]);
-        }
-
+        int total = a + b + c + d + e;
         double average = total / 5.0;
 
-        System.out.println("Total Marks = " + total);
-        System.out.println("Average Marks = " + average);
+        System.out.println("Total = " + total);
+        System.out.println("Average = " + average);
     }
 }
