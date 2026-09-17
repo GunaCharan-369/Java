@@ -1,4 +1,4 @@
-package observation.03;
+package observation.exp03;
 
 public class NegativeArraySizeException {
     public static void main(String[] args) {
